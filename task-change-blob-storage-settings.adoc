@@ -1,0 +1,86 @@
+---
+sidebar: sidebar 
+permalink: task-change-blob-storage-settings.html 
+keywords: blob storage, blob working environment, azure blob storage accounts, azure blob working environment 
+summary: 'Una volta che l"ambiente di lavoro Azure Blob Storage è disponibile in Canvas, è possibile modificare alcune proprietà dell"account di storage direttamente da BlueXP.' 
+---
+= Modificare le impostazioni dell'account di storage Azure Blob
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Una volta che l'ambiente di lavoro Azure Blob Storage è disponibile in Canvas, è possibile modificare alcune proprietà dell'account di storage direttamente da BlueXP.
+
+Non è possibile modificare il nome dell'account storage, l'area Azure o il tipo di performance dello storage.
+
+Le proprietà dell'account di storage che è possibile modificare includono:
+
+* Gruppo di abbonamento e risorse per l'account storage.
+* Aggiungere, modificare o rimuovere tag per gli oggetti aggiunti all'account di storage.
+* Se i nuovi oggetti aggiunti all'account di storage sono crittografati o meno e se l'opzione viene utilizzata per la crittografia.
+
+
+È possibile modificare queste impostazioni dell'account di storage direttamente da BlueXP facendo clic su image:button-horizontal-more.gif["il pulsante three dots more"] per un account di storage.
+
+image:screenshot-edit-azure-blob-storage.png["Una schermata che mostra come modificare le proprietà dell'account di storage da BlueXP."]
+
+
+
+== Modificare i dettagli del progetto
+
+Nella sezione _Dettagli progetto_ è possibile modificare l'abbonamento e il gruppo di risorse per l'account storage.
+
+[cols="25,75"]
+|===
+| Campo | Descrizione 
+
+
+| Iscrizione | Selezionare un abbonamento Azure diverso per l'account storage. 
+
+
+| Gruppo di risorse  a| 
+Selezionare un gruppo di risorse diverso per l'account di storage.
+
+https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal["Scopri di più sui gruppi di risorse"^].
+
+|===
+Fare clic su *Save* (Salva) per salvare le modifiche apportate all'account storage.
+
+
+
+== Aggiungere o modificare tag per gli oggetti nell'account di storage
+
+Nella sezione _Tags_ è possibile aggiungere fino a 10 coppie chiave/valore tag oppure modificare o eliminare una coppia chiave/valore tag. I tag vengono applicati agli oggetti quando vengono aggiunti all'account di storage. Se si desidera aggiungere altri tag, fare clic su *Aggiungi nuovo tag*.
+
+https://learn.microsoft.com/en-us/azure/storage/blobs/storage-manage-find-blobs["Scopri di più sulla tagging dalla documentazione Microsoft"^].
+
+Fare clic su *Save* (Salva) per salvare le modifiche apportate all'account storage.
+
+
+
+== Modificare l'impostazione di crittografia
+
+Nella sezione _Encryption_, è possibile modificare il tipo di crittografia dei dati che si desidera utilizzare per proteggere l'accesso ai dati negli account di storage.
+
+[cols="25,75"]
+|===
+| Tipo di crittografia dei dati | Descrizione 
+
+
+| Chiavi gestite da Microsoft | Per impostazione predefinita, le chiavi di crittografia gestite da Microsoft vengono utilizzate per crittografare i dati. 
+
+
+| Chiavi gestite dal cliente  a| 
+È possibile utilizzare le proprie chiavi gestite dal cliente per la crittografia dei dati invece di utilizzare le chiavi di crittografia predefinite gestite da Microsoft. Se si intende utilizzare le proprie chiavi gestite dal cliente, è necessario averle già create in modo da poter selezionare il vault delle chiavi e le chiavi in questa pagina.
+
+Le chiavi possono trovarsi nello stesso abbonamento dell'account storage oppure è possibile selezionare un abbonamento diverso.
+
+|===
+Consultare la documentazione di Microsoft Azure per https://learn.microsoft.com/en-us/azure/storage/common/storage-service-encryption["Ulteriori informazioni sulle chiavi gestite da Microsoft"^], e. https://learn.microsoft.com/en-us/azure/storage/common/customer-managed-keys-overview["Ulteriori informazioni sulle chiavi gestite dal cliente"^].
+
+Fare clic su *Save* (Salva) per salvare le modifiche apportate all'account storage.
