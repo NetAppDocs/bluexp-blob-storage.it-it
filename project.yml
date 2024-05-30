@@ -35,33 +35,6 @@ sidebar:
       url: "/task-get-help.html"
   - title: Note legali
     url: "/legal-notices.html"
-homepage:
-  tiles:
-  - title: Inizia subito
-    links:
-    - title: Visualizza i tuoi account di storage Azure Blob
-      url: task-view-azure-blob-storage.html
-  - title: Gestire gli account di storage Azure Blob
-    links:
-    - title: Aggiungere account di storage Blob
-      url: task-add-blob-storage.html
-    - title: Modificare le impostazioni dell'account di storage
-      url: task-change-blob-storage-settings.html
-    - title: Utilizza i servizi dati NetApp con lo storage Azure Blob
-      url: task-blob-enable-data-services.html
-  - title: Ulteriori informazioni
-    links:
-    - title: Documentazione dello storage Azure Blob per la gestione al di fuori di
-        BlueXP
-      url: https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction
-  - title: Blog e community
-    links:
-    - title: Community NetApp
-      url: https://community.netapp.com/t5/BlueXP-and-Services/ct-p/CDS
-    - title: Blog BlueXP
-      url: https://bluexp.netapp.com/blog/topic/cloud-manager
-    - title: Webinar BlueXP
-      url: https://bluexp.netapp.com/events
 product-family:
   name: BlueXP
   repo: bluexp-family
